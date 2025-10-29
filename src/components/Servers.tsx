@@ -16,9 +16,7 @@ interface ServerData {
 
 const Servers = () => {
   const [servers, setServers] = useState<ServerData[]>([
-    { id: 1, name: 'WORLD RP #1', players: 487, maxPlayers: 500, status: 'online', uptime: '99.9%' },
-    { id: 2, name: 'WORLD RP #2', players: 423, maxPlayers: 500, status: 'online', uptime: '99.8%' },
-    { id: 3, name: 'WORLD RP #3', players: 337, maxPlayers: 500, status: 'online', uptime: '99.7%' }
+    { id: 1, name: 'WORLD RP #1', players: 487, maxPlayers: 500, status: 'online', uptime: '99.9%' }
   ]);
 
   useEffect(() => {
@@ -43,7 +41,7 @@ const Servers = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
           {servers.map((server, index) => {
             const percentage = (server.players / server.maxPlayers) * 100;
             
