@@ -45,12 +45,6 @@ const Header = () => {
             >
               Правила
             </button>
-            <button 
-              onClick={() => scrollToSection('donate')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Донат
-            </button>
             <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity">
               Играть
             </Button>
@@ -85,12 +79,6 @@ const Header = () => {
               className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Правила
-            </button>
-            <button 
-              onClick={() => scrollToSection('donate')}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-            >
-              Донат
             </button>
             <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity w-full">
               Играть
