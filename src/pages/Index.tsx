@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import Servers from '@/components/Servers';
 import Rules from '@/components/Rules';
 import Footer from '@/components/Footer';
+import DiscordWidget from '@/components/DiscordWidget';
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Servers />
       <Rules />
       <Footer />
+      <DiscordWidget />
     </div>
   );
 };
